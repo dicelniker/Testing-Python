@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Debug Console Output",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            
+            // --- Part 2: Force Output to Debug Console ---
+            // 'internalConsole' routes all stdout (your print commands) 
+            // to the Debug Console, not the Terminal.
+            // NOTE: This console does *not* support user input (input()).
+            "console": "internalConsole", 
+            
+            // Optional: You can also specify the debugger type
+            "justMyCode": true 
+        }
+    ]
+}
