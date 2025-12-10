@@ -1,0 +1,20 @@
+{
+    "name": "Python Codespace",
+    // You can use a pre-built image, like the one below, 
+    // or specify a Dockerfile if you need custom software.
+    "image": "mcr.microsoft.com/devcontainers/python:3.11", 
+
+    // --- Part 1: Install the Python Extension ---
+    // This array tells VS Code to install the specified extensions 
+    // inside the container immediately upon creation.
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                // The official Microsoft Python extension
+                "ms-python.python",
+                // The Debugger is also helpful
+                "ms-python.debugpy" 
+            ]
+        }
+    }
+}
