@@ -16,5 +16,14 @@
                 "ms-python.debugpy" 
             ]
         }
+    },
+    // --- ADD THESE SETTINGS ---
+    "settings": {
+        // 1. Prevents the AI features (Chat & Inline Suggest) from running/displaying.
+        "chat.disableAIFeatures": true,
+
+        // 2. Prevents the side panel from opening by default when it contains AI chat.
+        // 'secondarySideBar' is the right-hand panel where AI chat typically opens.
+        "workbench.secondarySideBar.defaultVisibility": "hidden"
     }
 }
